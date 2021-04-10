@@ -1,3 +1,13 @@
+# Run Application by cloning repository from github `https://github.com/sanjesh321/amazona`
+
+    Terminal Commands
+        cd backend
+        npm i
+        cd .. && cd frontend
+        npm i
+        cd ..
+        npm run dev
+
 # Seeding Database
 
     @GET Request for seeding database 
@@ -16,15 +26,6 @@
         email - customer@gmail.com
         password - customer
 
-# Run Application by cloning repository from github `https://github.com/sanjesh321/amazona`
-
-    Terminal Commands
-        cd backend
-        npm i
-        cd .. && cd frontend
-        npm i
-        cd ..
-        npm run dev
 
 # Note 
     `npm run dev` starts react and nodejs server concurrently
