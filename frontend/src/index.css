@@ -194,6 +194,14 @@ img.large {
   width: 100%;
 }
 
+img.fix-image{
+  width: 29rem;
+  height: 250px;
+  object-fit: cover;
+}
+
+
+
 /* Card */
 .card {
   border: 0.1rem #c0c0c0 solid;
