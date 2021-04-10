@@ -2,8 +2,7 @@
   "name": "amazona",
   "type": "module",
   "version": "1.0.0",
-  "description": "Ecommerce website like amazon",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "build": "cd frontend && npm install && npm run build",
     "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js",
@@ -11,14 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/basir/amazona.git"
+    "url": "https://github.com/sanjesh321/amazona.git"
   },
-  "author": "",
+  "author": "Sanjesh Shrestha",
+  "description": "And amazon replica ecommerce application for college project",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/basir/amazona/issues"
-  },
-  "homepage": "https://github.com/basir/amazona#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",
