@@ -8,6 +8,9 @@
         cd ..
         npm run dev
 
+# Database (in .env file)
+    mongodb://localhost:27017/amazona
+
 # Seeding Database
 
     @GET Request for seeding database 
